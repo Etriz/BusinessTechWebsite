@@ -1,13 +1,9 @@
+import React from 'react';
+import Layout from './components/Layout';
+import './css/flatly.css';
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
-    </div>
-  );
+  return <Layout></Layout>;
 }
 
 export default App;
